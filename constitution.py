@@ -47,9 +47,8 @@ def chatbot(input_text):
 iface = gradio.Interface(fn=chatbot, inputs=gradio.inputs.Textbox(
     lines=5, label="Enter your question here"), outputs="text", title="Constitution bot")
 
-# Constructing indexes based on the documents in traininData folder
 # This can be skipped if you have already trained your app and need to re-run it
-index = construct_index("data")
+index = construct_index("/Users/veerdosi/Documents/code/constitution/data")
 
 # launching the web UI using gradio
 iface.launch(share=True)
