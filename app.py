@@ -11,7 +11,7 @@ from langchain.chat_models import ChatOpenAI
 from htmlTemplates import bot_template, user_template, css
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 
 def get_pdf_text(pdf_files):
