@@ -51,7 +51,7 @@ def generate_output(user_prompt):
     # api_key = "gF6ZjOmR1xqSNBFvKYs9tqEdnJKM44tKDnmt1rqf"
 
     # Set up Cohere client
-    co = cohere.Client('gF6ZjOmR1xqSNBFvKYs9tqEdnJKM44tKDnmt1rqf')
+    co = cohere.Client('')
 
     base_prompt = textwrap.dedent("""
     Answer the below question as a lawyer would
